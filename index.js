@@ -1,7 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
 const { Client, GatewayIntentBits } = require('discord.js');
 
-// ======== Token cần thay thế =========
+// ======== Token cần thay thế ========p
 const TELEGRAM_TOKEN = '8357378632:AAEBpVeaxWAtCMcbM0htngWDMVJFyDu8vKU';
 const DISCORD_TOKEN = 'DISCORD_TOKEN_CUA_BAN';
 // ====================================
@@ -67,6 +67,3 @@ discordBot.on('messageCreate', (message) => {
   } else if (content === '/check') {
     message.reply(`👤 Username: ${message.author.username}\n🆔 ID: ${message.author.id}`);
   }
-});
-
-discordBot.login(DISCORD_TOKEN);
