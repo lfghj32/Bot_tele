@@ -1,11 +1,12 @@
-{
-  "name": "tele_bot",
+{{
+  "name": "dual_bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "discord.js": "^14.11.0",
     "node-telegram-bot-api": "^0.61.0"
   }
 }
